@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import imgShopify from '~/assets/images/shopify.jpg';
-import Button from '~/components/Button';
+import imgShopify from "~/assets/images/shopify.jpg";
+import Button from "~/components/Button";
 
 const Index = () => (
   <div>
@@ -10,8 +10,6 @@ const Index = () => (
   </div>
 );
 
-Index.shopifyObjects = [
-  'shop',
-];
+Index.shopifyObjects = ["shop"];
 
 export default Index;

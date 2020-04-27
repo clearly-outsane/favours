@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
 
 class Button extends Component {
   constructor() {
@@ -19,16 +19,14 @@ class Button extends Component {
   }
 
   render() {
-    const {
-      text,
-    } = this.props;
+    const { text } = this.props;
 
-    const {
-      clicked,
-    } = this.state;
+    const { clicked } = this.state;
 
     return (
-      <button type="button" onClick={this.handleClick}>{ clicked ? `{{ shop.domain }}` : text }</button>
+      <button type="button" onClick={this.handleClick}>
+        {clicked ? `{{ shop.domain }}` : text}
+      </button>
     );
   }
 }
